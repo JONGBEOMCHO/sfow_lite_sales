@@ -136,7 +136,7 @@ var gridData = [];
 				 {header: '수정자',name: 'update_user',	 sortingType: 'asc',sortable: true,editor:'text',align: 'center'},
 				 {header: '총액',name: 'amount', sortingType: 'asc',sortable: true,editor:'text',align: 'center' },
 				 {header: '제목',name: 'title', sortingType: 'asc',sortable: true,editor:'text',align: 'center'},
-				 {header: '삭제여부',name: 'delete_yes_no',hidden:true,align: 'center'}
+				 {header: '삭제여부',name: 'delete_yes_no',align: 'center'}
 		    ]
 		});
 	
