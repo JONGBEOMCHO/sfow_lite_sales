@@ -55,6 +55,7 @@
 		</selectKey>
 		<![CDATA[
 			insert into so_shipout (out_code, order_number, client_code, company_code,
+			
 									out_type, trans_type, out_plan_date, out_manager, memo, create_user, update_user)
 			values (#{outCode}, #{orderNumber}, #{clientCode}, #{companyCode},
 					#{outType}, #{transType}, #{outPlanDate}, #{outManager}, #{memo}, #{createUser}, #{updateUser})

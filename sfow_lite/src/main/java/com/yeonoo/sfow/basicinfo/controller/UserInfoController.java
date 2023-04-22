@@ -69,6 +69,10 @@ public class UserInfoController {
 		return "basicinfo/userManagement";
 	}
 	
+	@RequestMapping("/sessionLogin")
+	   public String sessionLogin() throws Exception {
+	      return "basicinfo/sessionLogin";
+	   }
 	
 	@RequestMapping("/sessionLogout")
 	public String sessionLogout() throws Exception {
